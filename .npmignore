@@ -7,6 +7,7 @@ coverage
 .vscode/
 .idea/
 .DS_Store
+*.tgz
 
 # Ignore build/test/demo files
 example/
