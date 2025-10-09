@@ -1,0 +1,33 @@
+# Ignore dev-only files
+node_modules
+coverage
+.babelrc
+.eslintrc.js
+.prettierrc
+.vscode/
+.idea/
+.DS_Store
+
+# Ignore build/test/demo files
+example/
+examples/
+__tests__/
+test/
+demo/
+*.test.js
+*.spec.js
+
+# Ignore meta
+.env
+*.log
+*.tmp
+
+# Ignore output artifacts
+dist/
+build/
+*.zip
+
+# Ignore TypeScript if you use compiled output
+tsconfig.json
+*.ts
+*.tsx
