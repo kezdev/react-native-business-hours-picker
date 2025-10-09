@@ -1,0 +1,28 @@
+{
+  "name": "react-native-business-hours-picker",
+  "version": "1.0.0",
+  "description": "A wheel-style React Native time picker with customizable hour ranges.",
+  "main": "index.js",
+  "author": "Kez Hall",
+  "license": "MIT",
+  "keywords": [
+    "react-native",
+    "time-picker",
+    "datetime",
+    "schedule",
+    "business-hours",
+    "wheel-picker"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/kezdev/react-native-business-hours-picker"
+  },
+  "peerDependencies": {
+    "react": ">=17.0.0",
+    "react-native": ">=0.70.0"
+  },
+  "dependencies": {
+    "dayjs": "^1.11.10",
+    "react-native-wheely": "^0.3.0"
+  }
+}
