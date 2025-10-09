@@ -1,6 +1,6 @@
 {
   "name": "react-native-business-hours-picker",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "A wheel-style React Native time picker with customizable hour ranges.",
   "main": "index.js",
   "author": "Kez Hall",
