@@ -27,6 +27,7 @@ const BusinessHoursPicker = ({
          minuteInterval = 5,
          itemTextStyle,
          selectedIndicatorStyle,
+         daysAhead = 90,
      }) => {
     const initial = dayjs(initialDate);
     const [selectedDate, setSelectedDate] = useState(() => {
@@ -40,7 +41,7 @@ const BusinessHoursPicker = ({
 
     const hours = generateHours(minHour, maxHour);
     const minutes = generateMinutes(minuteInterval);
-    const dates = [...Array(90)].map((_, i) => {
+    const dates = [...Array(daysAhead)].map((_, i) => {
         const d = dayjs().add(i, 'day');
         return i === 0 ? 'Today' : d.format('ddd D MMM');
     });

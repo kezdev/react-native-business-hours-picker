@@ -34,6 +34,7 @@ import BusinessHoursPicker from 'react-native-business-hours-picker';
 | `minuteInterval`       | `number` | No       | Time interval between selectable minutes (e.g. `5`) |
 | `onSet`                | `function(Date)` | Yes | Called every time the picker changes |
 | `itemTextStyle`        | `object` | No       | Custom styles for the picker text items |
+| `daysAhead`            | `number` | No       | Number of days to display in the date wheel (default: 90) |
 | `selectedIndicatorStyle` | `object` | No    | Custom style for the selected indicator background |
 
 ## Demo
