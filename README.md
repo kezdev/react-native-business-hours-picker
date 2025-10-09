@@ -38,4 +38,4 @@ import BusinessHoursPicker from 'react-native-business-hours-picker';
 
 ## Demo
 
-_// todo
+![Screen Recording 2025-10-09 at 21 32 40](https://github.com/user-attachments/assets/c61d7152-cbfa-43f9-89ab-484fdfe137eb)
