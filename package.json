@@ -15,7 +15,7 @@
   ],
   "repository": {
     "type": "git",
-    "url": "https://github.com/kezdev/react-native-business-hours-picker"
+    "url": "git+https://github.com/kezdev/react-native-business-hours-picker.git"
   },
   "peerDependencies": {
     "react": ">=17.0.0",
