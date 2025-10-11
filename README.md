@@ -1,6 +1,8 @@
 # react-native-business-hours-picker
 
-A React Native datetime picker with customisable hour ranges (e.g. 8am–8pm), minute intervals, and always-visible wheel UI.
+A React Native datetime picker with customisable hour ranges (e.g. 8am–8pm), minute intervals, and always-visible wheel UI. 
+
+![npm](https://img.shields.io/npm/dw/react-native-business-hours-picker)
 
 ## Install
 
